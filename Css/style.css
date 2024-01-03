@@ -1,15 +1,16 @@
-@media only screen and (max-width:375px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        border: none;
-        outline: none;
-        scroll-behavior: smooth;
-        font-family: 'Roboto', sans-serif;
-        text-decoration: none;
-    }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:375px){
     #menu{
         display: flex;
         margin: 30px auto;
@@ -250,5 +251,20 @@
         color: hsl(236, 13%, 42%);
         font-weight: bold;
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    #menu{
+        display: flex;
+        margin: 30px auto;
+        margin-bottom: 0px;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    #showcase, .container{
+        margin: 30px auto;
+        width: 90%;
     }
 }
