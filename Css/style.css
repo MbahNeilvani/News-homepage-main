@@ -155,4 +155,25 @@
         letter-spacing: 5px;
         background-color: hsl(5, 85%, 63%);
     }
+
+    .contain2{
+        color: #fff;
+        height: 500px;
+        background-color: hsl(240, 100%, 5%);
+    }
+
+    .contain2 >div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+
+    .contain2 h1{
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 37px;
+        letter-spacing: 1px;
+        color: hsl(35, 77%, 62%);
+    }
 }
