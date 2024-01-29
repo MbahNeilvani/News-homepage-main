@@ -158,7 +158,7 @@
 
     .contain2{
         color: #fff;
-        height: 500px;
+        height: 400px;
         background-color: hsl(240, 100%, 5%);
     }
 
@@ -171,9 +171,28 @@
 
     .contain2 h1{
         display: inline-block;
+        font-size: 26px;
         margin-top: 30px;
-        margin-bottom: 37px;
+        margin-bottom: 7px;
         letter-spacing: 1px;
         color: hsl(35, 77%, 62%);
+    }
+
+    .contain2 h3{
+        color: hsl(36, 100%, 99%);
+        font-size: 18px;
+        margin-top: 24px;
+        margin-bottom: 9px;
+    }
+
+    .contain2 p{
+        font-size: 13px;
+        line-height: 20px;
+        color: hsl(236, 13%, 42%);
+    }
+
+    hr{
+        margin-top: 24px;
+        border: .5px solid hsl(236, 13%, 42%);
     }
 }
