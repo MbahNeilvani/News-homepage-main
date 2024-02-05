@@ -162,6 +162,11 @@
         background-color: hsl(5, 85%, 63%);
     }
 
+    .button:hover{
+        cursor: pointer;
+        background-color: hsl(240, 100%, 5%);
+    }
+
     .contain2{
         color: #fff;
         height: 400px;
@@ -189,6 +194,11 @@
         font-size: 18px;
         margin-top: 24px;
         margin-bottom: 9px;
+    }
+
+    .contain2 h3:hover{
+        cursor: pointer;
+        color: hsl(35, 77%, 62%);
     }
 
     .contain2 p{
@@ -348,6 +358,11 @@
         margin-bottom: 9px;
     }
 
+    .contain2 h3:hover{
+        cursor: pointer;
+        color: hsl(35, 77%, 62%);
+    }
+
     .contain2 p{
         font-size: 20px;
         line-height: 30px;
@@ -357,5 +372,41 @@
     hr{
         margin-top: 30px;
         border: 1px solid hsl(236, 13%, 42%);
+    }
+
+    .bellow{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 20px;
+    }
+
+    .bellow h1{
+        margin: 15px 0;
+        height: 100%;
+        font-weight: bolder;
+        padding-right: 18px;
+        font-size: 60px;
+    }
+
+    .bellow p{
+        font-size: 22px;
+        color: hsl(236, 13%, 42%);
+        padding-right: 30px;
+        padding-top: 35px;
+        line-height: 30px;
+    }
+
+    .button{
+        padding: 20px 35px;
+        font-size: 18px;
+        color: #fff;
+        letter-spacing: 5px;
+        background-color: hsl(5, 85%, 63%);
+    }
+
+    .button:hover{
+        cursor: pointer;
+        background-color: hsl(240, 100%, 5%);
     }
 }
