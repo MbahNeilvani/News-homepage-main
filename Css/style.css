@@ -1,0 +1,46 @@
+@media only screen and (max-width:375px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+
+    #menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /* Off-screen-menu */
+    .off-screen-menu{
+        display: flex;
+        font-size: 16px;
+        height: 100px;
+        width: 100%;
+        max-width: 450px;
+        /* position: fixed;
+        top: 0;
+        right: -450px; */
+        justify-content: center;
+        transition: .3s ease;
+        background-color: rgb(34, 37, 49);
+    }
+
+    .off-screen-menu.active {
+        right: 0;
+    }
+
+}
