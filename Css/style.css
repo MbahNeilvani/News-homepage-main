@@ -122,9 +122,37 @@
 
     /* showcase */
 
+    #showcase{
+        margin: 30px auto;
+        width: 90%;
+    }
+
     .img{
         display: flex;
         height: 300px;
         background-image: url(/images/image-web-3-mobile.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bellow h1{
+        margin: 15px 0;
+        font-weight: bolder;
+        padding-right: 50px;
+        font-size: 40px;
+    }
+
+    .bellow p{
+        color: hsl(236, 13%, 42%);
+        line-height: 25px;
+    }
+
+    .button{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 15px 30px;
+        color: #fff;
+        letter-spacing: 5px;
+        background-color: hsl(5, 85%, 63%);
     }
 }
