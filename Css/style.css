@@ -48,8 +48,8 @@
 
     #hamburger{
         display: flex;
-        padding: 16px;
-        background-color: rgb(34, 37, 49);
+        padding: 16px; 
+        background-color: #fff;
     }
 
     .ham-menu{
@@ -62,7 +62,7 @@
     .ham-menu span{
         height: 5px;
         width: 100%;
-        background-color: #6F86FF;
+        background-color: #000;
         border-radius: 15px;
         position: absolute;
         top: 50%;
@@ -71,11 +71,11 @@
         transition: .3s ease;
     }
 
-    /* .ham-menu.active span:nth-child(1){
+    .ham-menu span:nth-child(1){
         top: 25%;
     }
 
-    .ham-menu.active span:nth-child(3){
+    .ham-menu span:nth-child(3){
         top: 75%;
     }
 
@@ -91,5 +91,5 @@
     .ham-menu.active span:nth-child(3){
         top: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
-    } */
+    }
 }
